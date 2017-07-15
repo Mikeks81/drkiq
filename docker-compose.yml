@@ -26,6 +26,8 @@ drkiq:
     - '8000:8000'
   env_file:
     - .drkiq.env
+  stdin_open: true
+  tty: true
 
 sidekiq:
   build: .
